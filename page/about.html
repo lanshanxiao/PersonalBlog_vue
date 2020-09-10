@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>个人博客</title>
+    <link rel="stylesheet" href="./css/about.css">
 </head>
-
 <body>
     <header>
         <div class="container clearfix">
-            <a href="./index.html" class="title">个人博客 | 前端技术博客</a>
+            <a href="" class="title">个人博客 | 前端技术博客</a>
             <ul class="clearfix">
-                <li><a href="./index.html">首页</a></li>
+                <li><a href="/">首页</a></li>
                 <li><a href="./siteMap.html">地图</a></li>
-                <li><a href="./about.html">关于</a></li>
-                <li><a href="./message.html">留言</a></li>
+                <li><a href="">关于</a></li>
+                <li><a href="">留言</a></li>
             </ul>
             <div class="search">
                 <input type="text" placeholder="请输入关键词查找" class="search-inp">
@@ -28,20 +26,38 @@
     </header>
     <div class="container clearfix">
         <div class="container_left">
-            <div class="everyday_word">
-                <span>每日一句&nbsp;(2020-09-10)&nbsp;</span>
-                <p>会当凌绝顶,一览众山小</p>
-                <p>------杜甫</p>
+            <div class="about">
+                <h2>关于我</h2>
+                <hr>
+                <p>博主<span>云轲</span>，烩面省，殷墟文化之城，90后</p>
+                <p>
+                    会做饭，单身狗一枚
+                    <br>
+                    内向闷骚老司机
+                    <br>
+                    爱看历史，爱学新技术
+                    <br>
+                </p>
+                <h2>关于博客</h2>
+                <hr>
+                <p>时间:2020年</p>
+                <p>
+                    博主没钱，买不起服务器，有钱建站，没钱断更
+                    <br>
+                    个人笔记都整理在印象笔记中，免费好用，只能分享一部分
+                </p>
             </div>
-            <div class="article_list">
-                <div class="article">
-                    <div class="article_body">
-                        <h2 class="article_title">服务器迁移</h2>
-                        <p class="article_content">原服务器还有一天到期，所以直接换了台新的</p>
+            <div class="comments">
+                <div class="comment_title">
+                    <h3>关于：目前有78条留言</h3>
+                </div>
+                <div class="comments_list">
+                    <div class="message">
+                        pittle：发表于 2020年08月09日 16:24[回复]
                     </div>
-                    <div class="article_footer">
-                        <span>发布于<span>2020-09-10</span> | 浏览: <span>100</span> | Tags: <span>javascript</span></span>
-                    </div>
+                    <p>
+                        哥，你这个博客是不是用php写的呀？
+                    </p>
                 </div>
             </div>
             <div class="page_index">
@@ -216,5 +232,4 @@
         <p>Copyright © 2010-2020 郑晓个人博客 All rights reserved. 由免费开源的WordPress强力驱动. 鲁ICP备14017955号站长统计</p>
     </footer>
 </body>
-
 </html>

@@ -1,0 +1,54 @@
+.blog_name h2{
+    text-align:center;
+    margin:20px 0;
+    font-size:18px;
+}
+
+.nav{
+    padding:8px;
+    border:1px solid #eeeeee;
+    width:95%;
+    margin:auto;
+}
+
+.nav a:nth-of-type(1){
+    font-size:12px;
+    font-weight:700;
+    cursor:pointer;
+    color:#1f1f1f;
+}
+
+.nav a:nth-of-type(2){
+    font-size:12px;
+    cursor:pointer;
+    color:#1f1f1f;
+}
+
+.content{
+    padding:8px;
+    border:1px solid #eeeeee;
+    width:95%;
+    margin:auto;
+    margin-top:10px;
+}
+
+.content h3{
+    font-size:14px;
+    margin:14px 0;
+}
+
+.content ul{
+    margin:14px 0;
+    padding-left:40px;
+}
+
+.content ul li{
+    list-style-type:disc;
+    margin-top:12px;
+    font-size:12px;
+}
+
+.content ul li a{
+    color:rgb(51, 51, 51);
+    text-decoration:underline;
+}
